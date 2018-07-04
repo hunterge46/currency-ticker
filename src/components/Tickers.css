@@ -1,0 +1,20 @@
+.tickers, .update-btn {
+    list-style-type: none;
+    padding: 0;
+    display: inline-flex;
+}
+
+.update-btn-text {
+    padding: 1rem 1rem 1rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    min-width: 9rem;
+    opacity:1.0;
+    border: solid 1px rgba(0, 0, 0, 0.05);
+}
+
+.update-btn:hover{
+	cursor:pointer;
+	opacity:0.85;
+	color: steelblue;
+}
