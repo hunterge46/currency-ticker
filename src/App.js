@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Tickers from './components/Tickers.js';
+import TickersContainer from './components/TickersContainer.js';
 
+// Root Component
 class App extends Component {
+
+  constructor (props) {
+    super(props);
+    // Initialize the state
+  }
+
   render() {
     return (
-      <div className="App">
-        <div className="header">
+      <div data-test='app-component' className="App">
+        <div data-test='header' className="header">
           <h2>Currency Ticker</h2>
         </div>
-        <Tickers />
+        <TickersContainer data-test='tickers-container' />
       </div>
     );
   }

@@ -1,4 +1,4 @@
-.currency-pair {
+.ticker {
     padding: 1rem 2rem 2rem;
     margin: 2rem;
     border-radius: 0.5rem;
@@ -6,10 +6,10 @@
     border: solid 1px rgba(0, 0, 0, 0.05);
 }
 
-.currency-pair p {
+.ticker {
     color: rgba(0, 0, 0, 0.75);
 }
-.currency-pair-name {
+.ticker-symbol {
     font-size: 1.25rem;
 }
 .EURUSD {
